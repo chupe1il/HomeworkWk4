@@ -1,0 +1,37 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.landing {
+    background-color: black;
+    height: 600px;
+    position: relative;
+}
+h1 {
+    position: absolute;
+    color: white;
+    left: 75px;
+    top: 25px;
+}
+h2 {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+.button {
+    background-color: yellow;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    position: absolute;
+    top: 250px;
+    left: 500;
+    text-align: center;
+}
+.benefits {
+    background-color: rgb(199, 199, 199);
+    height: 6000px;
+}
