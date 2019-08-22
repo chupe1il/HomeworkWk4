@@ -1,10 +1,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    width: 1200px;
 }
 .landing {
-    background-color: black;
-    height: 600px;
+    /* background-color: rgb(216, 35, 35); */
+    /* height: 600px; */
     position: relative;
+    /* width: 1200; */
 }
 h1 {
     position: absolute;
@@ -15,7 +17,7 @@ h1 {
 h2 {
     position: absolute;
     top: 150px;
-    left: 250px;
+    left: 400px;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
@@ -23,15 +25,63 @@ h2 {
 }
 .button {
     background-color: yellow;
+    width:150px;
     font-size: 14px;
     font-weight: 700;
     border-radius: 5px;
-    position: absolute;
+    /* position: absolute; */
     top: 250px;
-    left: 500;
-    text-align: center;
+    left: 25;
+    /* text-align: center; */
 }
 .benefits {
-    background-color: rgb(199, 199, 199);
-    height: 6000px;
+    padding-left: 75px;
+    padding-top: 75px;
+    background-color: #f0efef;
+    height: 300px;
+    /* width: 600px; */
+}
+.benefitstext {
+    width: 320px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #606161;
+}
+li {
+    width: 325px;
+    margin-left: 15px;
+    color: #606161;
+}
+.quote {
+    background-color: #033048;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:435px;
+    padding-right: 435px;
+}
+.signupnow {
+    background-color: #f9e42e;
+    height: 100px;
+    font-weight: 800;
+
+
+}
+.landingimage {
+    /* Shold I have a class for the landing page image? */
+}
+.br {
+    height: 200px;
+}
+footer {
+    display: block;
+    padding-top: 40px;
+    padding bottom 15px;
+    background-color: #121212;
+    height: 300px;
+    text-align: center;
 }
